@@ -1,0 +1,541 @@
+# 🚀 MODERN PERSONAL BIO WEBSITE — AI CODING PROMPT
+
+Bạn là một **Senior Frontend Engineer + UI/UX Designer + Motion Designer**.
+Hãy xây dựng cho tôi một **Personal Bio / Portfolio Website** có giao diện cực kỳ hiện đại, premium, tối giản nhưng có cá tính.
+
+Mục tiêu: Website phải tạo cảm giác **“wow” ngay khi mở trang**, giống một personal website của developer/designer hiện đại.
+
+---
+
+## 1. 🎨 DESIGN STYLE
+
+Phong cách tổng thể:
+
+* Modern
+* Minimal
+* Premium
+* Futuristic
+* Clean
+* Dark mode là giao diện chính
+* Glassmorphism vừa phải
+* Soft gradients
+* Subtle glow
+* Rounded corners
+* Typography đẹp, rõ ràng
+* Không lạm dụng hiệu ứng
+
+Ưu tiên cảm giác:
+
+> Apple × Linear × Vercel × Raycast × Modern Developer Portfolio
+
+Background:
+
+* Dark / near-black
+* Gradient rất nhẹ
+* Có thể thêm noise texture cực nhẹ
+* Một số radial gradient phía sau hero
+
+Card:
+
+* Glass / semi-transparent
+* Border mờ
+* Box shadow nhẹ
+* Hover animation tinh tế
+
+Không được làm website trông như template AI thông thường.
+
+---
+
+# 2. 🧭 STRUCTURE
+
+Website gồm:
+
+### HERO
+
+Hiển thị:
+
+* Avatar
+* Tên
+* Username
+* Short bio
+* Location
+* Status đang online / available
+* Social links
+
+Ví dụ:
+
+> WR
+> Full-Stack Developer & Creative Builder
+
+> Building digital experiences, experimenting with AI and creating things that shouldn't exist.
+
+Buttons:
+
+* Contact Me
+* View Projects
+
+Có animation khi load trang.
+
+---
+
+# 3. 👤 ABOUT
+
+Section giới thiệu bản thân.
+
+Bao gồm:
+
+* Giới thiệu ngắn
+* Những thứ tôi đang làm
+* Những thứ tôi đang học
+* Interests
+* Current focus
+
+Thiết kế dạng modern cards.
+
+Có thể dùng layout:
+
+```text
+ABOUT ME
+
+[ Short introduction ]
+
+[ Currently building ]
+[ Learning ]
+[ Interested in ]
+```
+
+---
+
+# 4. 🛠️ SKILLS
+
+Hiển thị skills bằng các interactive cards.
+
+Ví dụ:
+
+Frontend:
+
+* React
+* Next.js
+* TypeScript
+* Tailwind
+
+Backend:
+
+* Node.js
+* Python
+* APIs
+
+AI:
+
+* LLM
+* AI Agents
+* Prompt Engineering
+
+Tools:
+
+* GitHub
+* VS Code
+* Figma
+
+Mỗi skill có icon.
+
+Hover:
+
+* Card nổi lên nhẹ
+* Icon animation
+* Glow nhẹ
+* Border highlight
+
+Không sử dụng progress bar kiểu:
+
+> HTML 90%
+
+Thay vào đó hãy làm UI hiện đại hơn.
+
+---
+
+# 5. 💻 PROJECTS
+
+Đây là section quan trọng.
+
+Hiển thị các project dưới dạng cards lớn.
+
+Mỗi project:
+
+* Project image / preview
+* Name
+* Description
+* Tech stack
+* GitHub
+* Live Demo
+* Status
+
+Card hover:
+
+* Image zoom nhẹ
+* Card translateY
+* Gradient overlay
+* Arrow animation
+
+Có thể thêm filter:
+
+```text
+ALL
+WEB
+AI
+BOT
+TOOLS
+OTHER
+```
+
+---
+
+# 6. 📊 GITHUB / ACTIVITY
+
+Tạo một section thể hiện coding activity.
+
+Có thể bao gồm:
+
+* GitHub contribution
+* Total repositories
+* Stars
+* Followers
+* Current streak
+
+Nếu chưa có API thì tạo mock data và thiết kế code để sau này dễ thay bằng GitHub API.
+
+---
+
+# 7. 🎵 NOW PLAYING
+
+Tạo một mini widget:
+
+```text
+NOW PLAYING
+
+♪ Song Name
+Artist
+
+━━━━━━━━━━
+```
+
+Thiết kế giống music player hiện đại.
+
+Nếu chưa có Spotify API thì dùng mock data.
+
+---
+
+# 8. 📬 CONTACT
+
+Section cuối:
+
+> Let's build something together.
+
+Có:
+
+* Email
+* GitHub
+* Discord
+* Facebook
+* Instagram
+* X
+
+Thêm nút:
+
+**Say Hello →**
+
+Hover có animation.
+
+---
+
+# 9. ✨ ANIMATIONS
+
+Animation phải mượt và tinh tế.
+
+Sử dụng:
+
+* Framer Motion / Motion
+* CSS transitions
+* Intersection Observer
+
+Animation:
+
+### Page Load
+
+Hero xuất hiện:
+
+1. Avatar fade + scale
+2. Name slide up
+3. Description fade
+4. Buttons xuất hiện
+5. Background glow animate nhẹ
+
+### Scroll
+
+Các section:
+
+* Fade in
+* Translate Y 20–30px
+* Stagger children
+
+### Hover
+
+Cards:
+
+```text
+translateY(-6px)
+scale(1.01)
+```
+
+Không dùng animation quá mạnh.
+
+---
+
+# 10. 🖱️ CUSTOM CURSOR
+
+Desktop có custom cursor hiện đại.
+
+Cursor:
+
+* Dot nhỏ
+* Outer circle
+* Hover link → expand
+* Hover card → thay đổi trạng thái
+
+Mobile phải tự động disable custom cursor.
+
+---
+
+# 11. 🌌 BACKGROUND
+
+Tạo background sống động nhưng nhẹ.
+
+Có thể sử dụng:
+
+* Gradient blobs
+* Grid
+* Noise
+* Blur
+* Floating particles
+
+Background không được gây rối mắt.
+
+Performance phải được ưu tiên.
+
+---
+
+# 12. 📱 RESPONSIVE
+
+Website phải hoàn toàn responsive.
+
+Desktop:
+
+* Max width khoảng 1200–1400px
+
+Tablet:
+
+* Adaptive grid
+
+Mobile:
+
+* Single column
+* Navigation tối giản
+* Touch friendly
+* Không có custom cursor
+* Animation giảm nhẹ
+
+Phải test các breakpoint phổ biến.
+
+---
+
+# 13. 🧭 NAVBAR
+
+Navbar floating:
+
+```text
+┌─────────────────────────────────────────┐
+│ WR     About  Skills  Projects   Contact│
+└─────────────────────────────────────────┘
+```
+
+Navbar:
+
+* Sticky
+* Glassmorphism
+* Blur background
+* Border nhẹ
+
+Khi scroll:
+
+* Navbar thu nhỏ nhẹ
+* Background rõ hơn
+
+Mobile:
+
+```text
+WR                         ☰
+```
+
+---
+
+# 14. 🌗 THEME
+
+Hỗ trợ:
+
+* Dark
+* Light
+
+Dark là default.
+
+Có nút toggle theme.
+
+Transition giữa 2 theme phải mượt.
+
+---
+
+# 15. 🧠 UX REQUIREMENTS
+
+Website phải:
+
+* Fast
+* Accessible
+* Keyboard friendly
+* SEO friendly
+* Responsive
+* Semantic HTML
+* Good contrast
+* Reduced motion support
+
+Thêm:
+
+* Smooth scrolling
+* Active navigation indicator
+* Back-to-top button
+* Loading state nếu cần
+* Error states cho API
+
+---
+
+# 16. ⚙️ TECH STACK
+
+Ưu tiên:
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* Framer Motion / Motion
+* Lucide Icons
+
+Nếu cần:
+
+* GitHub API
+* Spotify API
+* Email API
+
+Code phải:
+
+* Clean
+* Modular
+* Reusable
+* Type-safe
+* Easy to maintain
+
+---
+
+# 17. 📁 PROJECT STRUCTURE
+
+Tổ chức code kiểu:
+
+```text
+src/
+├── app/
+├── components/
+│   ├── Navbar
+│   ├── Hero
+│   ├── About
+│   ├── Skills
+│   ├── Projects
+│   ├── GithubStats
+│   ├── NowPlaying
+│   ├── Contact
+│   └── Footer
+├── data/
+│   ├── projects.ts
+│   ├── skills.ts
+│   └── social.ts
+├── lib/
+└── styles/
+```
+
+Tách data khỏi UI để tôi có thể sửa thông tin cá nhân dễ dàng.
+
+---
+
+# 18. 🧩 PERSONALIZATION
+
+Tạo một file config:
+
+```ts
+const profile = {
+  name: "WR",
+  username: "@wr",
+  role: "Full-Stack Developer",
+  bio: "...",
+  location: "...",
+  avatar: "...",
+
+  socials: {
+    github: "...",
+    discord: "...",
+    instagram: "...",
+    facebook: "..."
+  }
+}
+```
+
+Tôi chỉ cần sửa file này là có thể thay đổi toàn bộ thông tin website.
+
+---
+
+# 19. 🎯 VISUAL QUALITY
+
+Đây là yêu cầu cực kỳ quan trọng:
+
+**Không tạo một website portfolio generic.**
+
+Tránh:
+
+* Gradient quá nhiều
+* Text quá lớn
+* Card quá dày
+* Animation lòe loẹt
+* Màu sắc trẻ con
+* Icon random
+* Layout giống template
+
+Hãy tập trung vào:
+
+> Typography + spacing + hierarchy + motion + micro-interaction.
+
+Website phải có cảm giác như một sản phẩm thật được thiết kế bởi **senior product designer**.
+
+---
+
+# 20. 🚀 FINAL REQUIREMENT
+
+Hãy:
+
+1. Tạo toàn bộ project.
+2. Cài dependencies cần thiết.
+3. Viết đầy đủ code.
+4. Tạo responsive UI.
+5. Tạo animations.
+6. Tạo mock data.
+7. Đảm bảo không có lỗi TypeScript.
+8. Chạy build để kiểm tra.
+9. Fix toàn bộ lỗi nếu có.
+10. Không để placeholder UI sơ sài.
+11. Không hỏi lại những thứ không cần thiết.
+12. Nếu thiếu thông tin cá nhân, hãy sử dụng dữ liệu demo đẹp và đặt chúng trong file config để tôi thay đổi sau.
+
+**Quan trọng:** Hãy ưu tiên chất lượng visual và UX. Website phải nhìn đẹp ngay cả khi chưa có dữ liệu thật.
